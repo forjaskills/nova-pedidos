@@ -1,0 +1,28 @@
+<Solution>
+  <Folder Name="/01. Business Rules Model/">
+    <Project Path="src/01. Business Rules Model/Nova.Pedidos.Dominio/Nova.Pedidos.Dominio.csproj" />
+  </Folder>
+  <Folder Name="/02. Application Rules Model/">
+    <Project Path="src/02. Application Rules Model/Nova.Pedidos.Aplicacion/Nova.Pedidos.Aplicacion.csproj" />
+  </Folder>
+  <Folder Name="/03. Interface Adapter/">
+    <Project Path="src/03. Interface Adapter/Nova.Pedidos.Adaptadores/Nova.Pedidos.Adaptadores.csproj" />
+  </Folder>
+  <Folder Name="/04. Framework and Driver/">
+    <Project Path="src/04. Framework and Driver/Nova.Pedidos.Api/Nova.Pedidos.Api.csproj" />
+  </Folder>
+  <Folder Name="/05. Tests/">
+    <Project Path="tests/Nova.Pedidos.Pruebas.Unitarias/Nova.Pedidos.Pruebas.Unitarias.csproj" />
+    <Project Path="tests/Nova.Pedidos.Pruebas.Integracion/Nova.Pedidos.Pruebas.Integracion.csproj" />
+    <Project Path="tests/Nova.Pedidos.Pruebas.Arquitectura/Nova.Pedidos.Pruebas.Arquitectura.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/Migrador/Nova.Pedidos.Migrador.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path="README.md" />
+  </Folder>
+</Solution>

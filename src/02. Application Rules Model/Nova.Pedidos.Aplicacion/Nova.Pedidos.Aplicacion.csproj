@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Capa 2: casos de uso. Solo conoce el dominio. -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\01. Business Rules Model\Nova.Pedidos.Dominio\Nova.Pedidos.Dominio.csproj" />
+  </ItemGroup>
+</Project>
