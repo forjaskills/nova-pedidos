@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Nova.Pedidos.Adaptadores.Gateways.Pedidos;
+using Nova.Pedidos.Dominio.Pedidos;
 
 namespace Nova.Pedidos.Adaptadores.Gateways;
 
@@ -15,6 +17,8 @@ public static class RegistroGateways
         servicios.AddHealthChecks().AddDbContextCheck<PedidosDbContext>("base-de-datos");
 
         // Repositorios: nuevo-modulo agrega aquí los de cada módulo.
+        // módulo Pedidos
+        servicios.AddScoped<IRepositorioPedidos, RepositorioPedidos>();
         return servicios;
     }
 }

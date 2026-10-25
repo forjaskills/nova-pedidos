@@ -1,0 +1,6 @@
+{
+  "lineas": [
+    { "producto": "Café molido 500 g", "cantidad": 2, "precioUnitario": 8.50 },
+    { "producto": "Taza de cerámica", "cantidad": 1, "precioUnitario": 12.00 }
+  ]
+}
