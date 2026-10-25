@@ -9,6 +9,9 @@ public static class Politicas
     /// <summary>Exige el scope <c>pedidos.escribir</c> en el token.</summary>
     public const string Escritura = "escritura";
 
+    /// <summary>Exige el rol <c>operador</c> o <c>admin</c>: lo que gestiona lo de todos (avanzar un pedido).</summary>
+    public const string Gestion = "gestion";
+
     /// <summary>Límite de intentos para endpoints sensibles (login).</summary>
     public const string LimiteEstricto = "estricto";
 

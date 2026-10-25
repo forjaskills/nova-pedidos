@@ -9,7 +9,8 @@ public static class Autorizacion
     {
         servicios.AddAuthorizationBuilder()
             .AddPolicy(Politicas.Lectura, p => p.RequireAssertion(c => TieneScope(c.User, Politicas.ScopeLectura)))
-            .AddPolicy(Politicas.Escritura, p => p.RequireAssertion(c => TieneScope(c.User, Politicas.ScopeEscritura)));
+            .AddPolicy(Politicas.Escritura, p => p.RequireAssertion(c => TieneScope(c.User, Politicas.ScopeEscritura)))
+            .AddPolicy(Politicas.Gestion, p => p.RequireRole("operador", "admin"));
         return servicios;
     }
 
